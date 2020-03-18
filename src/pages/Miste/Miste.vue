@@ -5,11 +5,22 @@
     <input type="text" placeholder="搜索商品，共24264款好物">
     <button>登录</button>
   </header>
+  <Navbar/>
+  <!-- <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
+    <van-swipe-item><img src="https://yanxuan.nosdn.127.net/3fa2995d5c384d08ae45664562115254.jpg?type=webp&amp;imageView&amp;quality=75&amp;thumbnail=750x0"></van-swipe-item>
+    <van-swipe-item><img src="https://yanxuan.nosdn.127.net/eb985096ffa4cee38e180e7e20bc9531.jpg?type=webp&amp;imageView&amp;quality=75&amp;thumbnail=750x0"></van-swipe-item>
+    <van-swipe-item><img src="https://yanxuan.nosdn.127.net/2e3f2aae75fb01153a00e87a84349d36.jpg?type=webp&amp;imageView&amp;quality=75&amp;thumbnail=750x0"></van-swipe-item>
+    <van-swipe-item><img src="https://yanxuan.nosdn.127.net/0ee534b41d8e428476b5fe06b479bb39.jpg?type=webp&amp;imageView&amp;quality=75&amp;thumbnail=750x0"></van-swipe-item>
+  </van-swipe> -->
 </div>
 </template>
 <script>
+import Navbar from '../../components/Navbar/Navbar'
 export default {
-  name:'Miste'
+  name:'Miste',
+  components:{
+    Navbar
+  }
 }
 </script>
 <style lang="stylus" rel="stylesheet/stylus">
